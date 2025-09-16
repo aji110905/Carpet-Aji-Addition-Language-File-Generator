@@ -13,7 +13,7 @@ def process_language(d, parent_key='', sep='.'):
     return dict(items)
 
 def main():
-    lang_root = "lang"
+    lang_root = "resources"
     output_root = "C:/Users/24427/Desktop/Carpet-Aji-Addition"
     version_languages = {}
     for version_dir in os.listdir(lang_root):
